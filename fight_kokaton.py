@@ -258,7 +258,7 @@ def main():
                 return
 
         # ビームと爆弾の衝突判定
-        for bomb_idx in range(len(bombs) - 1, -1, -1):
+        for bomb_idx in range(len(bombs) -1, -1, -1):
             bomb = bombs[bomb_idx]
             if bomb is None:
                 continue
